@@ -1,0 +1,171 @@
+html,
+body,
+input,
+button,
+select,
+textarea {
+  font: 16px/1.2 'Open Sans', 'Helvetica Neue', Helvetica, arial, sans-serif;
+  color: #424240;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  font-weight: 300;
+}
+
+body {
+  height: 100%;
+  margin: 0px;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #F41C54;
+}
+
+a {
+  color: #00AAB5;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active,
+a:focus {
+  color: #1e4062;
+}
+
+p {
+  font-family: Lora, Georgia, serif;
+  font-size: 20px;
+  line-height: 1.3;
+}
+
+pre,
+code {
+  font-family: Monaco, Menlo, monospace;
+  padding: 5px 10px;
+  border: 1px solid #fff;
+  overflow: scroll;
+}
+
+hr {
+  border-top: 1px solid #fff;
+  border-right: none;
+  border-bottom: none;
+  border-left: none;
+  margin: 10px 0 30px 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+header {
+  padding: 20px 0px;
+  background-color: #00AAB5;
+  color: #fff;
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+header img {
+  width: 50px;
+  height: auto;
+  display: inline-block;
+}
+
+header h1 {
+  display: inline-block;
+  vertical-align: middle;
+  color: #fff;
+}
+
+h2 {
+  font-size: 25px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 15px;
+}
+
+h2.description {
+  font-size: 35px;
+  color: #848482;
+}
+
+#uses {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  background-color: #ffffff;
+  padding: 40px;
+}
+
+#uses li {
+  display: inline-block;
+  width: 300px;
+  padding: 20px;
+  background-color: #fafaf9;
+  vertical-align: top;
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #646462;
+}
+
+
+footer {
+  border-top: 1px solid #F2EFDC;
+  text-align: center;
+}
+
+/* mobile size */
+.container {
+  width: 100%;
+  padding: 0px 10%;
+  margin: 0px auto;
+}
+
+/* tablet size */
+@media only screen and (min-width: 600px) {
+  .container {
+    width: 540px;
+    padding: 0px 20px;
+  }
+}
+
+/* desktop size */
+@media only screen and (min-width: 960px) {
+  .container {
+    width: 800px;
+  }
+}
+
+/* clearfix */
+.container:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+.container {
+  *zoom: 1;
+}
